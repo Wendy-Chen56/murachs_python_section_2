@@ -54,5 +54,5 @@ rounded_price = price.quantize(
     rounding=ROUND_HALF_UP
 )
 print("Original Decimal =", price)
-print("Rounded Decimsl =", rounded_price)
+print("Rounded Decimal =", rounded_price)
 
