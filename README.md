@@ -63,4 +63,3 @@ python code/chapter10/chapter10_strings.py
 ```
 
 You can also open `chapter10_strings.py` in IDLE and press **F5** to run the program.
-
