@@ -51,6 +51,7 @@ This chapter covers:
 ### Files
 
 - `code/chapter10/chapter10_strings.py` - Lesson examples
+- `code/chapter10/practice_ch10.py` - Practice exercises
 
 ### How to Run
 
@@ -61,5 +62,11 @@ This chapter covers:
 ```bash
 python code/chapter10/chapter10_strings.py
 ```
+4. Run the practice file:
+
+```bash
+python code/chapter10/practice_ch10.py
+```
+
 
 You can also open `chapter10_strings.py` in IDLE and press **F5** to run the program.
