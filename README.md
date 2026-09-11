@@ -17,17 +17,10 @@ This chapter covers:
 
 ### How to Run
 
-1. Clone this repository.
-2. Open the Chapter 9 folder.
-3. Run the lesson example:
+From the repository folder, run:
 
 ```bash
 python code/chapter09/chapter09_numbers.py
-```
-
-4. Run the practice file:
-
-```bash
 python code/chapter09/practice_ch09.py
 ```
 
@@ -55,16 +48,10 @@ This chapter covers:
 
 ### How to Run
 
-1. Clone this repository.
-2. Open the Chapter 10 folder.
-3. Run the lesson example:
+From the repository folder, run:
 
 ```bash
 python code/chapter10/chapter10_strings.py
-```
-4. Run the practice file:
-
-```bash
 python code/chapter10/practice_ch10.py
 ```
 
@@ -92,34 +79,18 @@ This chapter covers:
 
 ### How to Run
 
-1. Clone this repository.
-2. Open the Chapter 11 folder.
-3. Run the lesson example:
+From the repository folder, run:
 
 ```bash
 python code/chapter11/chapter11_dates_times.py
-```
-
-4. Run the Invoice Due Date program:
-
-```bash
 python code/chapter11/invoice_due_date.py
-```
-
-5. Run the Timer program:
-
-```bash
 python code/chapter11/timer.py
-```
-
-6. Run the practice file:
-
-```bash
 python code/chapter11/practice_ch11.py
 ```
 
 You can also open the Python files in IDLE and press **F5** to run the programs.
 
+---
 
 ## Chapter 12 - How to Work with Dictionaries
 
@@ -160,8 +131,9 @@ python code/chapter12/country_codes.py
 python code/chapter12/word_counter.py
 python code/chapter12/book_catalog.py
 python code/chapter12/practice_ch12.py
+```
 
-
+---
 
 ## Chapter 13 - How to Work with Recursion and Algorithms
 
@@ -191,9 +163,9 @@ Files included:
 - `towers_of_hanoi.py` - Demonstrates the recursive solution to the Towers of Hanoi puzzle
 - `practice_ch13.py` - Practice with recursive functions
 
-### Run the Chapter 13 Examples
+### How to Run
 
-From the project root directory, run:
+From the repository folder, run:
 
 ```bash
 python code/chapter13/chapter13_recursion.py
@@ -201,3 +173,4 @@ python code/chapter13/factorial.py
 python code/chapter13/fibonacci.py
 python code/chapter13/towers_of_hanoi.py
 python code/chapter13/practice_ch13.py
+```
