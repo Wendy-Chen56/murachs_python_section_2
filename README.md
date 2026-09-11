@@ -160,3 +160,44 @@ python code/chapter12/country_codes.py
 python code/chapter12/word_counter.py
 python code/chapter12/book_catalog.py
 python code/chapter12/practice_ch12.py
+
+
+
+## Chapter 13 - How to Work with Recursion and Algorithms
+
+Chapter 13 introduces recursion and shows how recursive functions can be used to solve problems by breaking them into smaller versions of the same problem.
+
+### Topics Covered
+
+- An introduction to recursion
+- How recursion works in Python
+- How to use recursion to add a range of numbers
+- How to compute the factorial of a number
+- How to compute a Fibonacci series
+- The Towers of Hanoi puzzle
+- The recursive algorithm for solving the Towers of Hanoi puzzle
+
+### Python Files
+
+The Chapter 13 examples are located in:
+
+`code/chapter13/`
+
+Files included:
+
+- `chapter13_recursion.py` - Demonstrates recursion by adding a range of numbers
+- `factorial.py` - Computes the factorial of a number using recursion
+- `fibonacci.py` - Computes a Fibonacci series using recursion
+- `towers_of_hanoi.py` - Demonstrates the recursive solution to the Towers of Hanoi puzzle
+- `practice_ch13.py` - Practice with recursive functions
+
+### Run the Chapter 13 Examples
+
+From the project root directory, run:
+
+```bash
+python code/chapter13/chapter13_recursion.py
+python code/chapter13/factorial.py
+python code/chapter13/fibonacci.py
+python code/chapter13/towers_of_hanoi.py
+python code/chapter13/practice_ch13.py
