@@ -119,3 +119,44 @@ python code/chapter11/practice_ch11.py
 ```
 
 You can also open the Python files in IDLE and press **F5** to run the programs.
+
+
+## Chapter 12 - How to Work with Dictionaries
+
+Chapter 12 introduces dictionaries and explains how to store and work with data using key-value pairs.
+
+### Topics Covered
+
+- How to create a dictionary
+- How to get, set, and add items
+- How to delete items
+- How to loop through keys and values
+- How to convert between dictionaries and lists
+- The Country Code program
+- The Word Counter program
+- How to use the merge and update operators
+- How to use dictionaries with complex objects as values
+- The Book Catalog program
+
+### Python Files
+
+- `code/chapter12/chapter12_dictionaries.py` - Basic dictionary operations and examples
+- `code/chapter12/country_codes.py` - Country Code program
+- `code/chapter12/word_counter.py` - Word Counter program
+- `code/chapter12/book_catalog.py` - Book Catalog program
+- `code/chapter12/practice_ch12.py` - Chapter 12 practice exercises
+
+### Presentation
+
+- `slides/chapter_12_How_to_Work_with_Dictionaries.pptx`
+
+### How to Run
+
+From the repository folder, run:
+
+```bash
+python code/chapter12/chapter12_dictionaries.py
+python code/chapter12/country_codes.py
+python code/chapter12/word_counter.py
+python code/chapter12/book_catalog.py
+python code/chapter12/practice_ch12.py
