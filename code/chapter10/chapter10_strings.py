@@ -7,35 +7,17 @@ print()
 
 
 # --------------------------------
-# 1. Unicode
-# --------------------------------
-
-print("5 =", ord("5"))
-print("A =", ord("A"))
-print("a =", ord("a"))
-
-print()
-
-
-# --------------------------------
-# 2. Indexes
+# 1. Indexes and Slicing
 # --------------------------------
 
 message = "Hello out there!"
 
+# Indexes
 print(message[0])
 print(message[1])
 print(message[-1])
 
-print()
-
-
-# --------------------------------
-# 3. Slicing
-# --------------------------------
-
-message = "Hello out there!"
-
+# Slicing
 print(message[:5])
 print(message[6:9])
 print(message[10:])
@@ -45,19 +27,16 @@ print()
 
 
 # --------------------------------
-# 4. Repetition
+# 2. Repetition and Multiline Strings
 # --------------------------------
 
+# Repetition
 print("=" * 20)
 print("A horse! " * 2)
 
 print()
 
-
-# --------------------------------
-# 5. Multiline String
-# --------------------------------
-
+# Multiline string
 query = '''SELECT categoryID, name AS categoryName
 FROM Category WHERE categoryID = ?'''
 
@@ -67,9 +46,10 @@ print()
 
 
 # --------------------------------
-# 6. Search a String
+# 3. Search and Loop Through Strings
 # --------------------------------
 
+# Search a string
 spam = "Congratulations. You've won a million dollars."
 
 print("million" in spam)
@@ -78,11 +58,7 @@ print("on" in spam)
 
 print()
 
-
-# --------------------------------
-# 7. Loop Through a String
-# --------------------------------
-
+# Loop through a string
 message = "Hi!"
 
 for char in message:
@@ -92,7 +68,7 @@ print()
 
 
 # --------------------------------
-# 8. Basic String Methods
+# 4. Basic String Methods
 # --------------------------------
 
 entry = "12345"
@@ -114,9 +90,10 @@ print()
 
 
 # --------------------------------
-# 9. find()
+# 5. Find, Replace, and Remove
 # --------------------------------
 
+# find()
 email = "joel.murach@com"
 
 at_index = email.find("@")
@@ -127,11 +104,7 @@ print(dot_index)
 
 print()
 
-
-# --------------------------------
-# 10. Get First Word
-# --------------------------------
-
+# Get first word
 title = "The Meaning of Life"
 
 i = title.find(" ")
@@ -145,11 +118,7 @@ print(first_word)
 
 print()
 
-
-# --------------------------------
-# 11. replace()
-# --------------------------------
-
+# replace()
 cc_number = "4012-881022-88810"
 cc_number = cc_number.replace("-", " ")
 
@@ -162,11 +131,7 @@ print(phone_number)
 
 print()
 
-
-# --------------------------------
-# 12. removeprefix() / removesuffix()
-# --------------------------------
-
+# removeprefix() and removesuffix()
 email = "joel@murach.com"
 
 print(email.removeprefix("joel"))
@@ -176,7 +141,7 @@ print()
 
 
 # --------------------------------
-# 13. split()
+# 6. Split Strings
 # --------------------------------
 
 quotation = "These are the times that try men's souls."
@@ -188,7 +153,6 @@ print(words[3])
 print(words[-1])
 
 print()
-
 
 date = "11/9/1972"
 date = date.split("/")
@@ -203,7 +167,6 @@ print(year)
 
 print()
 
-
 address = "John Doe|1500 Any Street|New York|NY|10001"
 address = address.split("|")
 
@@ -215,7 +178,7 @@ print()
 
 
 # --------------------------------
-# 14. join()
+# 7. Join Strings
 # --------------------------------
 
 first_name = "Eric"
@@ -224,7 +187,6 @@ last_name = "Idle"
 full_name = last_name + ", " + first_name
 
 print(full_name)
-
 
 address = [
     "John Doe",
@@ -238,7 +200,6 @@ address = "|".join(address)
 
 print(address)
 
-
 letters = "HORSE"
 letters_spaced = " ".join(letters)
 
@@ -246,3 +207,5 @@ print(letters_spaced)
 
 print()
 
+
+print("Chapter 10 completed!")
